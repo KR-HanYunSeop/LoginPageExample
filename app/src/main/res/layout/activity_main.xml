@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:padding="20dp"
+
+    >
+
+    <TextView
+        android:layout_marginTop="70dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TEST"
+        android:textSize="30dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#F703FF"
+        android:textStyle="bold"
+
+        />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.9"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Link to instagram"
+        android:textSize="25dp"
+        android:background="@drawable/instagram"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+
+        />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Link to facebook"
+        android:textSize="25dp"
+        android:background="@drawable/facebook"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+
+        />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Do you have registration?"
+        android:textSize="20dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#fff"
+        />
+    <TextView
+        android:id="@+id/login_btn"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Login"
+        android:textSize="25dp"
+        android:background="@drawable/login"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+
+        />
+
+</LinearLayout>
